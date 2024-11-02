@@ -78,7 +78,11 @@ This project offers an accessible way to monitor weather remotely, supporting ap
 
 ## Demo Video 📹
 
-**(Embed or link to a demo video showcasing the project)**
+https://github.com/user-attachments/assets/4c0cf91b-af0e-4864-a755-3ab24fec1ed6
+
+
+
+
 
 ## Code Structure 🖥️
 
