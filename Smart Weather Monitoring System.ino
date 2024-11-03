@@ -2,9 +2,9 @@
    Home Page
 */
 //Include the library files
-#define BLYNK_TEMPLATE_ID "TMPL3RbSCdde3"
-#define BLYNK_TEMPLATE_NAME "Weather Monitoring System"
-#define BLYNK_AUTH_TOKEN "ful_6ja_Og_v9052Ic_RX1SABHO5GGd4"
+#define BLYNK_TEMPLATE_ID "BLYNK_TEMPLATE_ID" /* Write Blink IoT Template ID Here in between "" */ 
+#define BLYNK_TEMPLATE_NAME "BLYNK_TEMPLATE_NAME" /* Write Blink IoT Template Name Here in between "" */
+#define BLYNK_AUTH_TOKEN "BLYNK_AUTH_TOKEN" /* Write Blink IoT Template Auth Token Here in between "" */
 
 #include <LiquidCrystal_I2C.h>
 #define BLYNK_PRINT Serial
@@ -20,8 +20,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 SFE_BMP180 bmp;
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "B_Cable_Network";
-char pass[] = "9903585313";
+char ssid[] = "SSID_WIFI_NAME"; /* Write Your WIFI Name Here in between "" */
+char pass[] = "PASSWORD"; /* Write Your WIFI Password Here in between "" */
 
 DHT dht(2, DHT11);//(DHT sensor pin,sensor type)
 BlynkTimer timer;
